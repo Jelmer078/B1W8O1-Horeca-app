@@ -1,0 +1,31 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    color: darkorange;
+    margin-left: 400px;
+
+
+    
+    background-image: url("http://www.dehaerlemsche.com/wp-content/uploads/2018/07/Bier-Bitterballen.jpg");
+    background-size: cover;  
+    background-repeat: no-repeat;
+}
+
+.bitterballen {
+    width: 100%
+}
+
+.button {
+    background-color: darkorange;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button5 {
+    border-radius: 25%;
+}

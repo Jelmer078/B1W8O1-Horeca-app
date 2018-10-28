@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8">
+		<title>Horeca app</title>
+		<link rel="stylesheet" type="text/css" href="css/Horeca-app.css">
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">	
+		
+	</head>
+
+	<body>
+		<main>
+			<header>
+				<div class="headerTitle">
+ 
+						<h1>Welkom bij <span class="cafeName">Cafe Dordrecht</span></h1> 
+				</div>
+			</header>
+
+
+			<section>
+				<div class="sectionOrderButton">
+					<h2>Bestel hier online:</h2> <button class="button button5" onclick="startOrder()">Bestel</button>
+				</div>
+				<div id="sectionRekening">
+					<div id="sectionDrank">
+
+							<h2>De rekening van uw dranken:</h2>
+
+
+						<p id="rekeningDrankFris"></p>
+						<p id="rekeningDrankBier"></p>
+						<p id="rekeningDrankWijn"></p>
+						<span id="rekeningDrankTotaal"></span>
+					</div>
+
+					<div id="sectionSnack">
+
+							<h2>De rekening van uw snacks:</h2>
+
+
+						<p id="rekeningSnack8"></p>
+						<p id="rekeningSnack16"></p>
+						<span id="rekeningSnackTotaal"></span>
+					</div>
+					<div id="sectionRekeningTotal">
+						<p id="snackDrankTotaal"></p>
+
+					</div>
+				</div>
+			</section>
+		</main>
+		<script src="javascript/Horeca-app.js"></script>
+	</body>
+</html>
